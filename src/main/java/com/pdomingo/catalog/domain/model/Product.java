@@ -1,7 +1,7 @@
 package com.pdomingo.catalog.domain.model;
 
-import com.pdoming.kernel.core.ddd.AggregateRoot;
-import com.pdoming.kernel.core.util.MorePreconditions;
+import com.pdomingo.kernel.core.ddd.AggregateRoot;
+import com.pdomingo.kernel.core.util.MorePreconditions;
 import com.pdomingo.catalog.domain.model.ids.ImageId;
 import com.pdomingo.catalog.domain.model.ids.ProductId;
 

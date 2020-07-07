@@ -1,6 +1,6 @@
 package com.pdomingo.catalog.domain.model;
 
-import com.pdoming.kernel.core.util.MorePreconditions;
+import com.pdomingo.kernel.core.util.MorePreconditions;
 
 public class Specification {
     private final String name;

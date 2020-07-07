@@ -4,12 +4,12 @@ import com.pdomingo.kernel.core.ddd.DelegatedIdentifier;
 
 import java.util.UUID;
 
-public class ProductId extends DelegatedIdentifier<UUID> {
-    public ProductId(UUID value) {
+public class ReservationId extends DelegatedIdentifier<UUID> {
+    public ReservationId(UUID value) {
         super(value);
     }
 
-    public ProductId(String value) {
+    public ReservationId(String value) {
         super(UUID.fromString(value));
     }
 }
